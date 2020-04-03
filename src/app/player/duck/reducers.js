@@ -5,7 +5,7 @@ const INITIAL_STATE = {
     deck: null,
   }
 
-  const playerOneReducer = (state = INITIAL_STATE, action) => {
+  const playerReducer = (state = INITIAL_STATE, action) => {
     switch (action.type) {
       case types.SET_NAME:
         return {
@@ -22,4 +22,4 @@ const INITIAL_STATE = {
     }
   }
 
-  export default playerOneReducer
+  export default playerReducer
